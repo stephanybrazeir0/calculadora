@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js">
+  </script>
+  <div class="container">
+    <h1 class="titulo">Calculadora</h1>
+    <input type="text" id="visor" disabled>
+    <div class="container-btn">
+      <button class="c" onclick="apagaDisplay()">C</button>
+      <button class="numero" onclick="alteraDisplay('0')">0</button>
+      <button class="numero" onclick="alteraDisplay('1')">1</button>
+      <button class="numero" onclick="alteraDisplay('2')">2</button>
+      <button class="numero" onclick="alteraDisplay('3')">3</button>
+      <button class="numero" onclick="alteraDisplay('4')">4</button>
+      <button class="numero" onclick="alteraDisplay('5')">5</button>
+      <button class="numero" onclick="alteraDisplay('6')">6</button>
+      <button class="numero" onclick="alteraDisplay('7')">7</button>
+      <button class="numero" onclick="alteraDisplay('8')">8</button>
+      <button class="numero" onclick="alteraDisplay('9')">9</button>
+      <button class="numero" onclick="alteraDisplay('.')">.</button>
+      <button class="operacao" onclick="alteraDisplay('+')">+</button>
+      <button class="operacao" onclick="alteraDisplay('-')">-</button>
+      <button class="operacao" onclick="alteraDisplay('*')">*</button>
+      <button class="operacao" onclick="alteraDisplay('/')">/</button>
+      <button class="operacao" onclick="resultadoDisplay()">=</button>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
